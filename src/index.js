@@ -11,7 +11,7 @@ app.use(express.json());
 // Rutas
 app.use('/api', standupRoutes);
 
-// Manejo de errores global
+// Manejo de errores global xoxo
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).json({
