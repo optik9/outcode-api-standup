@@ -5,6 +5,15 @@ const standupRoutes = require('./routes/standupRoutes');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Log temporal para verificar las variables de entorno
+console.log('Database Config:', {
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
+    port: process.env.DB_PORT,
+  });
+
 app.use(cors());
 app.use(express.json());
 
