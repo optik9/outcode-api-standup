@@ -32,3 +32,6 @@ app.use((err, req, res, next) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+
+//https://outcode-api-standup-mx75haiz8-choyoss-gmailcoms-projects.vercel.app/api/standups?startDate=2025-01-17&endDate=2025-01-17&location=Peru
